@@ -1,6 +1,6 @@
 package a
 
-import log "github.com/feixiao/log"
+import log "github.com/feixiao/infra/log"
 
 var logger  *log.Log
 var tag string

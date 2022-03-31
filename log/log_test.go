@@ -1,9 +1,10 @@
 package log_test
 
 import (
-	"github.com/feixiao/log"
-	"github.com/feixiao/log4go"
 	"testing"
+
+	"github.com/feixiao/infra/log"
+	"github.com/feixiao/log4go"
 )
 
 // type Option func(cfg *Config)

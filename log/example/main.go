@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/feixiao/log/example/a"
+	"github.com/feixiao/infra/log/example/a"
 
-	log "github.com/feixiao/log"
+	log "github.com/feixiao/infra/log"
 )
 
 func main() {
