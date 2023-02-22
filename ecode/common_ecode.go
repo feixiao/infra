@@ -1,4 +1,4 @@
-package codes
+package ecode
 
 func init() {
 	Load()

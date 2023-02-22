@@ -1,4 +1,4 @@
-package codes
+package ecode
 
 import (
 	"testing"
