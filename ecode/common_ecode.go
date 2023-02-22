@@ -24,4 +24,11 @@ var (
 	ErrWebSocketMessageType = New(1011, "WebSocket消息类型错误")
 	ErrWebSocketWrite       = New(1012, "WebSocket发送数据异常")
 	ErrWebSocketHeartbeat   = New(1013, "WebSocket心跳超时")
+
+	//Database  & Redis 1100 - 1199
+	ErrDatabase = New(1100, "DB error.")
+	ErrDBDelete = New(1101, "DB delete error.")
+	ErrDBCreate = New(1102, "DB create error.")
+	ErrDBGet    = New(1103, "DB get error.")
+	ErrDBUpdate = New(1104, "DB update error.")
 )
